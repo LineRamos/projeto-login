@@ -41,8 +41,8 @@ body, html {
     background-position: center center;
     background-size: contain;
 
-    height: 627px;
-    width: 311px;
+    height: 627px; 
+    width: 311px; /* Coloquei um tamanho mtooo maior do que a aula, mas n está errado */
     
     border: 2px solid #5F2C82;
 
