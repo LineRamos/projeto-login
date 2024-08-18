@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Pesquisar por: Typical Device Breakpoints (tem recomendações dadas pela W3C)
+Pequenas telas: até 600px
+Celular: + de 600px até 768px
+Tablet: + de 768px até 992px
+Desktop: + de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+/* Todas as configurações iniciais da página, já foramd determinadas pelo estilo do Mobile First, e as demais as "herdam" */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #5F2C82;
+    background-attachment: fixed;
+}
+
+#fora {
+    background-color: #5F2C82;
+    background-size: cover;  
+
+    background-position: center center;
+    position: relative;
+
+    height: 100vh;
+}
+
+#dentro {
+    /* background-color: white; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    height: 627px;
+    width: 311px;
+    
+    border: 2px solid #5F2C82;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    
+    position: absolute;
+}
+
+div {
+    display: block;
+}
+
+div#metal {    
+    background-image: url(../imagem/metal.jpg);
+    border: 2px solid transparent;
+    border-radius: 20px 20px 0px 0px;
+    background-position: left bottom;
+    background-size: cover;
+
+    height:40%;
+}
+
+div#login {
+    background-color: white;
+    background-size: contain;
+    margin: auto;
+    border: 2px solid transparent;
+    border-radius: 0px 0px 20px 20px; 
+    
+    height: 60%;
+
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div > p {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+    padding: 2px;
+}
+
+form {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black; /* Depois apagar - coloquei só para visualizar a caixa */   
+    text-align: center;    
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+form > div#infos > input {
+    background-color: #94CFCD;
+    border: 1px solid #5F2C82;
+    height: 30px;  
+    width: 80%;
+    border-radius: 5px;  
+}
+
+span { /* São os símbolos da caixa de infos. */
+    color: white;
+    padding: 5px;
+}
+
+form > div#infos {
+    display: inline-block;
+    color: white;
+    background-color: #5F2C82;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+
+    height: auto;
+}
+
+div#entrar {
+    display: inline-block;
+    background-color: #53aaa7;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 93%;
+    margin-bottom: 5px;
+    color: white; /* Não consegui mudar a cor das letras */
+}
+
+div#esqueci > a > p {
+    color: white;
+}
+
+div#esqueci {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #94CFCD;
+    border-radius: 5px;
+    width: 93%;
+    margin-bottom: 5px;
+    color: #2D6462;
+}
+
+div#esqueci > a > p {
+    color: #2D6462;
+}
+
+
+/* Cor do boneco do começo da caixa:  #5F2C82
+Cor da parte interna do email e senha: #94CFCD
+
+Cor da caixa de entrar e da borda do esqueci: #2D6462
+
+Cor da borda: #60C2BE
+*/

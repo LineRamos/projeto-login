@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Pesquisar por: Typical Device Breakpoints (tem recomendações dadas pela W3C)
+Pequenas telas: até 600px
+Celular: + de 600px até 768px
+Tablet: + de 768px até 992px
+Desktop: + de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+/* Todas as configurações iniciais da página, já foramd determinadas pelo estilo do Mobile First, e as demais as "herdam" */
+
+/* * {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-image: linear-gradient(to bottom, #5F2C82, #499F9D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+div {
+    display: inline-block;
+    width: 627px;
+    height: 311px;
+}
+
+
+div#login {
+    background-color: white;
+    margin: auto;
+    border: 2px solid green;
+
+    width: 50%;
+    height: 50%;
+}
+
+div#metal {
+    background-color: black;
+    border: 2px solid red;
+
+    width: 50%;
+    height: 50%;
+} */

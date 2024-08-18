@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+
+<body>
+    <section id="fora">
+        <article id="dentro">
+
+            <div id="metal">
+
+            </div>
+
+            <div id="login" class="login">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div id="infos">
+                        <span class="material-symbols-outlined">person</span>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                    </div>
+
+                    <div id="infos">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required>
+                    </div>
+
+                    <div id="entrar">
+                        <a href="#">
+                            <p>
+                                <input type="submit" value="">
+                                Entrar
+                            </p>
+                        </a>
+                    </div>
+
+                    <div id="esqueci">
+                        <a href="#">
+                            <p>
+                                <input type="reset" value="">
+                                <!-- Aqui preciso colocar a função de 'Esqueci a senha' -->
+                                Esqueci a senha &#9993;
+                            </p>
+                        </a>
+
+                        <p>
+
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
